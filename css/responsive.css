@@ -1,102 +1,162 @@
 /* Untuk Tablet */
 @media (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-  }
-  
-  .lesson-icon img{
-  width: 200px;
-  height: 200px;
-  
-  }
+    .lesson {
+        width: 50%;
+    }
 
-   /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    visibility: visible;
-  }
+    .lesson-icon img {
+        width: 200px;
+        height: 200px;
 
-.detail-wrapper {
-    margin-top: 650px;
-}
+    }
 
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  
-  .heading h2 {
-    font-size: 20px;
-  }
-.img-banner img {
-    width: 100%;
-    margin-top: 40px;
-}
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        visibility: visible;
+    }
+
+    .detail-wrapper {
+        margin-top: 650px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .img-banner img {
+        width: 100%;
+        margin-top: 40px;
+    }
 
 
 
 }
 
 /* Untuk Smartphone */
-@media (max-width: 670px){
-  .lesson {
-    width: 100%;
-  }
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
-  .lesson-icon img{
-  margin-right: 10px;
-  width: 300px;
-  height: 300px;
-  
-  }
+    .lesson-icon img {
+        margin-right: 10px;
+        width: 300px;
+        height: 300px;
 
-  .detail{
-    display: inline-block;
-    margin-left: 100px;
-  }
+    }
 
-  .detail-wrapper {
-    margin-top: 750px;
-}
+    .detail {
+        display: flex;
+        flex-direction: column;
+    }
 
-  footer {
-    text-align: center;
-  }
-  
-  .btn {
-    width: 100%;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
-   /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    visibility: visible;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
+    .gbr-profil {
+        margin: 0 auto;
+        width: 100%;
+    }
 
-  }
- .img-banner img{
-    width: 100%;
-    margin-top: 40px;
-}
+    .gbr-profil img {
+        margin-left: 90px;
+    }
+
+    .detail-wrapper {
+        margin-top: 750px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-wrapper {
+        text-align: left;
+    }
+
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        visibility: visible;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    /* .img-banner img {
+        width: 100%;
+        margin-top: 40px;
+    } */
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .img-banner {
+        display: none;
+    }
+
+    .text-banner {
+        width: 100%;
+    }
+
+    .text-banner h1 {
+        text-align: center;
+    }
+
+    .text-banner p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .text-banner .typing {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .txt-detail {
+        width: 100%;
+    }
+
+    .txt-detail h2 {
+        text-align: center;
+    }
+
+    .txt-detail p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .akun {
+        margin-left: 110px;
+        margin-bottom: 30px;
+    }
 
 }
