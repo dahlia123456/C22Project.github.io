@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Unicode";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 65PX;
+  
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 20px;
+}
+
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  visibility: hidden;
+}
+
+/* Top Wrapper */
+.top-wrapper {
+    background-color: #fa8080;
+    padding: 120px 0 50px 0;
+}
+
+.banner {
+    display: flex;
+}
+
+.text-banner {
+    width: 50%;
+}
+
+.text-banner h1 {
+    font-size: 45px;
+    margin: 0;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.text-banner p {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.img-banner {
+    width: 50%;
+}
+
+.img-banner img {
+    width: 500px;
+}
+
+#tim {
+    color: #5f5d60;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    padding: 12px 14px;
+    display: inline-block;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.typing{
+  opacity: 0.7;
+  color: #636e72;
+  font-size: 20px;
+  letter-spacing: 3px;
+  width: 190%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: ketik 5s steps(50, end);
+  animation: ketik 5s steps(50,end);
+}
+
+@keyframes ketik{
+  from{width: 0;}
+}
+@-webkit-keyframes ketik{
+  from{width: 0;}
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon img{
+  width: 200px;
+  height: 220px;
+  border: 1px solid #c0c0c0;
+  margin-top: 28px;
+}
+
+
+.lesson-icon p {
+  width: 100%;
+  color: #5f5d60;  
+
+}
+
+.lesson-icon button {
+  width: 100%;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* Details */
+.detail-wrapper {
+    margin-top: 250px;
+}
+
+.detail {
+    display: flex;
+}
+
+.detail-bg1 {
+    background-color: #ffe4c4;
+}
+
+.detail-bg2 {
+    background-color: #b0e0e6;
+}
+
+.gbr-profil {
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gbr-profil img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f0fff0;
+    border-radius: 50%;
+
+}
+
+.txt-detail {
+    width: 70%;
+}
+
+.txt-detail h2,
+.txt-detail p {
+    color: #5f5d60;
+}
+
+.akun img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    padding-bottom: 3px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Footer */
+footer img {
+  width: 60px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
