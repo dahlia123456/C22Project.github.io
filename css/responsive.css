@@ -31,6 +31,13 @@
   .heading h2 {
     font-size: 20px;
   }
+.img-banner img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+
 }
 
 /* Untuk Smartphone */
@@ -85,5 +92,11 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+
   }
+ .img-banner img{
+    width: 100%;
+    margin-top: 40px;
+}
+
 }
